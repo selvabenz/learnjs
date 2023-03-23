@@ -15,3 +15,13 @@ h1 {
 p {
     color: rgb(236, 79, 79);
   }
+  input {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+  }
