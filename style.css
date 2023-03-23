@@ -1,9 +1,21 @@
 body {
-    background-color: black;
+    background-color: rgb(224, 222, 222);
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color:black;
+    text-align: center;
   }
 h1 {
-    color: blue;
+    color: rgb(224, 139, 89);
+    text-align: center;
+    font-size: 18px;
   }
 p {
-    color: red;
+    color: rgb(236, 79, 79);
+  }
+
+  button {
+    
   }
