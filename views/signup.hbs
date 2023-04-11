@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+    <!--<p id=new></p>
+        <p id=""></p>
+            <button type="button" onclick="myClick()">Show message</button>
+            <button type="button" onclick="myHide()">Hide message</button> 
+
+        <p>
+            <input type="button" id="toggle" onclick="buttonchangeText()" value = "Show">
+        </p>
+    -->
+        <div class="centered">
+            <h1>Sign up to sigin in</h1>
+            <form action="/auth/signup" method="POST">
+            <p>
+                <input type="text" id="name" placeholder="Your name" name="name" required />
+            </p>
+            <p>
+                <input type="email" id="email" placeholder="Your email" name="email" required />
+            </p>
+            <p>
+                <input type="password" id="password" placeholder="Choose a password"  name="password" required />
+            </p>
+            <p>
+                <input type="password" id="passwordConfirm" placeholder="Confirm password" name="passwordConfirm" required />
+            </p>
+            <p>
+                <input type="submit" id="submit" value="submit">
+            </p>
+            </form>
+            {{#if message}}
+                <h4>{{message}}</h4>
+            {{/if}}
+        </div>
+        <script src="/script.js"></script>
+    </body>
+</html>
