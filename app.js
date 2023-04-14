@@ -2,6 +2,8 @@ const express = require("express");
 const path = require("path");
 const mysql = require("mysql2");
 const dotenv = require('dotenv');
+const hbs = require("hbs");
+const cookieParser = require("cookie-parser");
 
 dotenv.config({ path: './.env'});
 const app = express();
@@ -15,6 +17,7 @@ const db = mysql.createConnection({
 const publicDirectory = path.join(__dirname, './public');
 app.use(express.static(publicDirectory));
 
+app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 

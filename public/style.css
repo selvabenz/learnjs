@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: rgb(224, 222, 222);
     font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -52,3 +52,269 @@ div.textheader {
 ::placeholder {
   font-family: 'Courier New', Courier, monospace;
 }
+
+
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: #7e8180;
+  ;
+}
+
+.container,
+.container-fluid
+{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: block;
+  background: #fff;
+  width: 410px;
+  padding: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.container .text{
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  color: #7e8180;
+}
+
+.container form{
+margin-top: -20px;
+}
+
+.container form .data{
+  height: 45px;
+  width: 100%;
+  margin: 40px 0;
+}
+
+form .data label{
+  font-size: 18px;
+}
+
+
+form .data input{
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid silver;
+}
+
+form .data input:focus{
+  border-color: #7e8180;
+  border-bottom-width: 2px;
+}
+
+
+form .forgot-pass{
+  margin-top: -8px;
+}
+form .forgot-pass a{
+  color: #7e8180;
+  text-decoration: none;
+}
+form .forgot-pass a:hover{
+  text-decoration: underline;
+}
+
+form .btn{
+  margin: 30px 0;
+  height: 45px;
+  width: 100%;
+}
+
+form .btn button{
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  color: #fff; 
+   background:#7e8180;
+   font-size: 18px;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+form .signup-link{
+  text-align: center;
+}
+
+form .signup-link a{
+  color: #7e8180;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+   
+
+.container-fluid{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+nav{
+  width: 100%; 
+  height:50px;
+  background:white;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:500;
+  font-size: 18px;
+  color:#34495e;
+}
+
+nav .menu a{
+  margin:10px 10px ;
+  text-decoration: none;
+  font-size:18px;
+  color: #7e8180
+}
+
+nav .menu a:hover{
+  text-decoration: underline;
+}
+
+
+.container-fluid h2,.container-fluid h3{
+  font-weight: 400;
+}
+
+.container-fluid img{
+  width: 200px;
+}
+
+
+/*SEEMA*/
+
+/*
+*{
+  margin: 0;
+  padding-left: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: rgb(163, 156, 156);
+  background-position: center;
+  background-size: cover;
+}
+
+.Form-box{
+
+  width: 90%;
+  max-width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  padding: 50px 60px 70px;
+  text-align: center;
+}
+
+.Form-box h1{
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #521d1d;
+  position: relative;
+  
+}
+
+.input-field{
+
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  max-height: 65px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+
+input{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+}
+
+.input-field i{
+  margin-left: 15px;
+  color: #999;
+}
+
+form p {
+  text-align: left;
+  font-size: 13px;
+
+}
+
+form p a {
+  text-decoration: none;
+  color: #702020;
+}
+
+.btn-field{
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+
+.btn-field button {
+
+  flex-basis: 48%;
+  background: #521d1d;
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+  } 
+
+.input-group{
+  height: 280px;
+}
+
+.btn-field button.disable{
+
+  background: #eaeaea;
+  color: #555;
+}
+
+*/
